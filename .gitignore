@@ -1,0 +1,16 @@
+# DIRECTORYS: HIDE
+.mimocode/
+.opencode/
+.vscode/
+.caches/
+.cache/
+
+# DIRECTORYS: NORMAL
+build
+cache
+
+# FILES: HIDE
+
+# FILES: NORMAL
+local.require.cmake
+local.adapter.cmake
