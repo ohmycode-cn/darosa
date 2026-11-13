@@ -1,0 +1,10 @@
+[col limit]
+col: 80
+
+[include language]
+c/c++
+rust
+golang
+powershell
+bash
+python

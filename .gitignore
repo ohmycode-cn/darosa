@@ -6,11 +6,22 @@
 .cache/
 
 # DIRECTORYS: NORMAL
-build
-cache
+build/
+cache/
+tmpfs/
 
 # FILES: HIDE
 
 # FILES: NORMAL
 local.require.cmake
 local.adapter.cmake
+tmpfs.*
+
+# RUST: BUILD ARTIFACTS
+target/
+**/target/
+Cargo.lock
+**/Cargo.lock
+*.rlib
+*.rmeta
+*.pdb

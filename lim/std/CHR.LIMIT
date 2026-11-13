@@ -1,0 +1,14 @@
+[indentation and tab set]
+indentation 4
+tab 4
+
+[require]
+Tab characters are prohibited, and only space characters are allowed
+
+[include language]
+c/c++
+rust
+golang
+powershell
+bash
+python
