@@ -16,6 +16,9 @@ tmpfs/
 local.require.cmake
 local.adapter.cmake
 tmpfs.*
+bin.rust.ini
+bin.ccxx.ini
+bin.ini
 
 # RUST: BUILD ARTIFACTS
 target/
@@ -25,3 +28,17 @@ Cargo.lock
 *.rlib
 *.rmeta
 *.pdb
+.rustc_info.json
+
+# BINARYS 
+/help
+
+# EDITOR: TEMP FILES
+*.swp
+*.swo
+*~
+*.bak
+
+# OS: JUNK FILES
+.DS_Store
+Thumbs.db

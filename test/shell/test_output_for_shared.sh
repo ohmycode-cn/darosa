@@ -39,7 +39,6 @@ function __TestMsgFunctionOutput__() {
 	MsgWarn --color --msgot "This is function: msgwarn output string"
 	MsgDone --color --msgot "This is function: msgdone output string"
 
-	HelpInformationForShared
 }
 
 function __TestMain__() {
