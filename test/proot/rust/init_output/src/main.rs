@@ -1,5 +1,5 @@
 fn init() {
-    println()
+    println("DEBUG: FILE: NIL, LINE: NIL")
 }
 
 fn test() {
